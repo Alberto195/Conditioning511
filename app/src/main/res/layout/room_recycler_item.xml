@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        app:cardCornerRadius="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/itemConstraint"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+
+                android:layout_marginTop="10dp"
+                android:text="Комната"
+
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/itemConstraint"
+                app:layout_constraintTop_toTopOf="@id/itemConstraint" />
+
+            <ImageView
+                android:id="@+id/person1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/baseline_emoji_people_24"
+
+                app:layout_constraintStart_toStartOf="@+id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/person2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/baseline_emoji_people_24"
+
+                app:layout_constraintStart_toEndOf="@+id/person1"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/person3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/baseline_emoji_people_24"
+
+                app:layout_constraintStart_toEndOf="@+id/person2"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/person4"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/baseline_emoji_people_24"
+
+                app:layout_constraintStart_toEndOf="@+id/person3"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/plus"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/baseline_add_24"
+
+                app:layout_constraintStart_toEndOf="@+id/person4"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/temperatureItem"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="11dp"
+
+                android:text="C"
+                android:textSize="12sp"
+
+                app:layout_constraintStart_toStartOf="@+id/person1"
+                app:layout_constraintTop_toBottomOf="@+id/person1" />
+
+            <TextView
+                android:id="@+id/humidityItem"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="11dp"
+
+                android:text="%"
+                android:textSize="12sp"
+
+                app:layout_constraintStart_toStartOf="@+id/person1"
+                app:layout_constraintTop_toBottomOf="@+id/temperatureItem" />
+
+            <TextView
+                android:id="@+id/pPmItem"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="11dp"
+
+                android:text="PPm"
+                android:textSize="12sp"
+
+                app:layout_constraintStart_toStartOf="@+id/person1"
+                app:layout_constraintTop_toBottomOf="@+id/humidityItem" />
+
+            <ImageView
+                android:id="@+id/temperatureItemIcon"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginEnd="10dp"
+
+                android:src="@drawable/baseline_emoji_people_24"
+
+                app:layout_constraintBottom_toBottomOf="@+id/temperatureItem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/temperatureItem"
+                app:layout_constraintTop_toTopOf="@+id/temperatureItem" />
+
+            <ImageView
+                android:id="@+id/humidityItemIcon"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginEnd="10dp"
+
+                android:src="@drawable/baseline_emoji_people_24"
+
+                app:layout_constraintBottom_toBottomOf="@+id/humidityItem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/humidityItem"
+                app:layout_constraintTop_toTopOf="@+id/humidityItem" />
+
+            <ImageView
+                android:id="@+id/pPmItemIcon"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginEnd="10dp"
+
+                android:src="@drawable/baseline_emoji_people_24"
+
+                app:layout_constraintBottom_toBottomOf="@+id/pPmItem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/pPmItem"
+                app:layout_constraintTop_toTopOf="@+id/pPmItem" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
