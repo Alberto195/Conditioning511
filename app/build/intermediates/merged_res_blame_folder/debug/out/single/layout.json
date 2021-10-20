@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/albert/AndroidStudioProjects/IWeather5112/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/room_recycler_item.xml",
+        "source": "/home/albert/AndroidStudioProjects/IWeather5112/app/src/main/res/layout/room_recycler_item.xml"
+    },
+    {
+        "merged": "/home/albert/AndroidStudioProjects/IWeather5112/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/albert/AndroidStudioProjects/IWeather5112/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/albert/AndroidStudioProjects/IWeather5112/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/room_details_fragment.xml",
+        "source": "/home/albert/AndroidStudioProjects/IWeather5112/app/src/main/res/layout/room_details_fragment.xml"
+    },
+    {
+        "merged": "/home/albert/AndroidStudioProjects/IWeather5112/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/main_screen_fragment.xml",
+        "source": "/home/albert/AndroidStudioProjects/IWeather5112/app/src/main/res/layout/main_screen_fragment.xml"
+    },
+    {
+        "merged": "/home/albert/AndroidStudioProjects/IWeather5112/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sign_in_fragment.xml",
+        "source": "/home/albert/AndroidStudioProjects/IWeather5112/app/src/main/res/layout/sign_in_fragment.xml"
+    },
+    {
+        "merged": "/home/albert/AndroidStudioProjects/IWeather5112/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/room_detail_list_item.xml",
+        "source": "/home/albert/AndroidStudioProjects/IWeather5112/app/src/main/res/layout/room_detail_list_item.xml"
+    }
+]

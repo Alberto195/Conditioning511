@@ -1,0 +1,14 @@
+com/example/iweather511/databinding/ActivityMainBinding.java
+ com.example.iweather511.databinding.ActivityMainBinding
+com/example/iweather511/databinding/SignInFragmentBinding.java
+ com.example.iweather511.databinding.SignInFragmentBinding
+com/example/iweather511/databinding/RoomDetailListItemBinding.java
+ com.example.iweather511.databinding.RoomDetailListItemBinding
+com/example/iweather511/databinding/RoomRecyclerItemBinding.java
+ com.example.iweather511.databinding.RoomRecyclerItemBinding
+com/example/iweather511/BuildConfig.java
+ com.example.iweather511.BuildConfig
+com/example/iweather511/databinding/RoomDetailsFragmentBinding.java
+ com.example.iweather511.databinding.RoomDetailsFragmentBinding
+com/example/iweather511/databinding/MainScreenFragmentBinding.java
+ com.example.iweather511.databinding.MainScreenFragmentBinding
